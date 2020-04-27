@@ -11,10 +11,13 @@ $(function () {
         v = $(this).val();
 
         if (v === '123') {
-            $(".secret-div").show('slow');
+            $(".secret-div").show({
+                duration: 1000
+            });
         } else {
-            $(".secret-div").hide('slow');
-        }
+            $(".secret-div").hide({
+                duration: 300
+            });
 
         console.log("value = " + v);
     });

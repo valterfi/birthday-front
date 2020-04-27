@@ -39,7 +39,7 @@ gulp.task('scripts', function() {
       //Pass desired output filename to vinyl-source-stream
       .pipe(source('bundle.js'))
       //.pipe(streamify(terser()))
-      .pipe(streamify(uglify()))
+      //.pipe(streamify(uglify()))
       .pipe(rename({ extname: ".min.js" }))
       // Start piping stream to tasks!
       .pipe(gulp.dest('./build/js'));

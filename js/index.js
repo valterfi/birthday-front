@@ -14,15 +14,12 @@ $(function () {
 
     function main(result) {
 
-        console.log(result);
-
         $('.main-carousel').flickity({
             // options
             cellAlign: 'left',
             contain: true
         });
 
-        console.log('chamou aqui1');
         updateCheckSecret(result);
        
         updateClickButton(result);
@@ -72,7 +69,6 @@ $(function () {
     function updateClickButton(result) {
         $('.secret-button').click(function(e) {
             e.preventDefault();
-            console.log(result);
             alert('Sua chave secreta foi alterada agora!!');
 
             $.ajax({

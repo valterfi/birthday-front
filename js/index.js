@@ -16,8 +16,9 @@ $(function () {
             });
         } else {
             $(".secret-div").hide({
-                duration: 300
+                duration: 1000
             });
+        }
 
         console.log("value = " + v);
     });

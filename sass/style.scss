@@ -352,14 +352,20 @@ span {
 	}
 }
 
+input {
+    color: white;
+}
+
 .name {
-	//position: relative;
-	//top: 200px;
 	text-align: center;
 	color: white;
     font-size: 3.5em;
-    //margin-top: 0px;
-    //margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
 }
 
 // cake
@@ -703,5 +709,62 @@ body {
 .carousel-cell13 {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/assets/images/carrousel/image13.png") no-repeat center top;
     background-size: cover;
+}
+
+@include desktop {
+    .carousel-cell {
+        height: 600px;
+    }
+
+    .carousel-cell1 {
+        background-size: contain;
+    }
+    
+    .carousel-cell2 {
+        background-size: contain;
+    }
+    
+    .carousel-cell3 {
+        background-size: contain;
+    }
+    
+    .carousel-cell4 {
+        background-size: contain;
+    }
+    
+    .carousel-cell5 {
+        background-size: contain;
+    }
+    
+    .carousel-cell6 {
+        background-size: contain;
+    }
+    
+    .carousel-cell7 {
+        background-size: contain;
+    }
+    
+    .carousel-cell8 {
+        background-size: contain;
+    }
+    
+    .carousel-cell9 {
+        background-size: contain;
+    }
+    
+    .carousel-cell10 {
+        background-size: contain;
+    }
+    
+    .carousel-cell11 {
+        background-size: contain;
+    }
+    
+    .carousel-cell12 {
+        background-size: contain;
+    }
+    .carousel-cell13 {
+        background-size: contain;
+    }
 }
 

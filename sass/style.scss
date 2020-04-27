@@ -776,7 +776,15 @@ body {
 }
 
 .secret-image {
-    height: 600px;
+    width: 100%;
+    height: 300px;
+}
+
+@include desktop {
+    .secret-image {
+        width: auto;
+        height: 600px;
+    }
 }
 
 .secret-button {

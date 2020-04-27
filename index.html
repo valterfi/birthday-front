@@ -1,34 +1,32 @@
 <html>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esther Happy Birthday</title>
-    <script>
-        window.open = function() {};
-        window.print = function() {};
-        // Support hover state for mobile.
-        if (false) {
-            window.ontouchstart = function() {};
-        }
-    </script>
-    <meta content="clickberry-extension-here">
-    <meta content="clickberry-extension-here">
-    <style type="text/css"></style>
-    <style type="text/css"></style>
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="./build/css/style.min.css">
-</head>
-
-<body class="container-flex">
-    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-    <script src="./build/js/bundle.min.js"></script>
-    <script src="./js/flickity.pkgd.min.js"></script>
-    <div class="container">
-        <div class="balloon balloon-mobile">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Esther Happy Birthday</title>
+      <script>
+         window.open = function() {};
+         window.print = function() {};
+         // Support hover state for mobile.
+         if (false) {
+             window.ontouchstart = function() {};
+         }
+      </script>
+      <style type="text/css"></style>
+      <style type="text/css"></style>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" type="text/css" href="./build/css/style.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   </head>
+   <body class="container-flex">
+      <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+         integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+      <script src="./build/js/bundle.min.js"></script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <div class="container">
+         <div class="balloon balloon-mobile">
             <div><span>B</span>
             </div>
             <div><span>D</span>
@@ -37,9 +35,8 @@
             </div>
             <div><span>Y</span>
             </div>
-        </div>
-
-        <div class="balloon balloon-tablet">
+         </div>
+         <div class="balloon balloon-tablet">
             <div><span>B</span>
             </div>
             <div><span>D</span>
@@ -50,9 +47,8 @@
             </div>
             <div><span>!</span>
             </div>
-        </div>
-
-        <div class="balloon balloon-desktop">
+         </div>
+         <div class="balloon balloon-desktop">
             <div><span>☺</span>
             </div>
             <div><span>B</span>
@@ -65,34 +61,49 @@
             </div>
             <div><span>!</span>
             </div>
-        </div>
-         <h1>Esther</h1>
+         </div>
+         <h1 class="name">Esther</h1>
+         <!-- <h1>Flickity - autoPlay</h1> -->
+         <!-- Flickity HTML init -->
+         <div class="carousel" data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>>
+            <div class="carousel-cell carousel-cell1"></div>
+            <div class="carousel-cell carousel-cell2"></div>
+            <div class="carousel-cell carousel-cell3"></div>
+            <div class="carousel-cell carousel-cell4"></div>
+            <div class="carousel-cell carousel-cell5"></div>
+            <div class="carousel-cell carousel-cell6"></div>
+            <div class="carousel-cell carousel-cell7"></div>
+            <div class="carousel-cell carousel-cell8"></div>
+            <div class="carousel-cell carousel-cell9"></div>
+            <div class="carousel-cell carousel-cell10"></div>
+            <div class="carousel-cell carousel-cell11"></div>
+            <div class="carousel-cell carousel-cell12"></div>
+            <div class="carousel-cell carousel-cell13"></div>
+
+          </div>
 
          <div class="cake-wrap">
             <div class="cake">
-                <div class="plate"></div>
-                <div class="layer layer-bottom"></div>
-                <div class="layer layer-middle"></div>
-                <div class="layer layer-top"></div>
-                <div class="icing"></div>
-                <div class="drip drip1"></div>
-                <div class="drip drip2"></div>
-                <div class="drip drip3"></div>
-                <div class="candle">
-                    <div class="flame"></div>
+                   <div class="plate"></div>
+                   <div class="layer layer-bottom"></div>
+                   <div class="layer layer-middle"></div>
+                   <div class="layer layer-top"></div>
+                   <div class="icing"></div>
+                   <div class="drip drip1"></div>
+                   <div class="drip drip2"></div>
+                   <div class="drip drip3"></div>
+                   <div class="candle">
+                      <div class="flame"></div>
+                   </div>
                 </div>
-            </div>
-        </div>
+         </div>
 
-    </div>
-    <script>
-        
-    </script>
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage('resize', "*");
-        }
-    </script>
-
-
-</body></html>
+      </div>
+      <script></script>
+      <script>
+         if (document.location.search.match(/type=embed/gi)) {
+             window.parent.postMessage('resize', "*");
+         }
+      </script>
+   </body>
+</html>
